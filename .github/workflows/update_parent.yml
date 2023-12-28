@@ -24,7 +24,7 @@ jobs:
         run: |
           git config --global user.email "info@benhorner.dev"
           git config --global user.name "ben-horner-dev"
-          cd src/frontend
+          cd src/backend
           git remote get-url origin
           git checkout main
           git pull
