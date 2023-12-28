@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "portfolio"
+name = "backend"
 version = "0.1.0"
 description = "Portfolio repo for Ben Horner"
 authors = ["Ben Horner <info@benhorner.dev>"]
@@ -25,7 +25,7 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.pytest.ini_options]
 python_files = "test*.py"
-pythonpath = "src/backend"
+pythonpath = "."
 norecursedirs = []
 
 [tool.coverage.report]
